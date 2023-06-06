@@ -112,6 +112,13 @@ li a {
     color: var(--platinum);
 }
 
+li a:hover {
+    opacity: .8;
+}
+
+.project-links a:hover {
+    opacity: .8;
+}
 @media(min-width: 620px) {
     body {
         padding: 2rem;
@@ -339,10 +346,3 @@ main h2 {
 footer {
     text-align: center;
 }
-
-
-
-
-/* 
-    I'm a motivated nd disciplined self-taught Frontend developer looking for the opportunity to join a team and contribute with my energy and skill to achieve their goals
-*/
